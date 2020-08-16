@@ -39,6 +39,7 @@ $ make
 
 ### Assignment
 The code in [session.go](https://github.com/pingcap/tidb/blob/master/session/session.go) handles the session with client. In function NewTxn will start a new transaction. So I add code in this function which will write a log hello transaction
+![code](https://github.com/TszKitLo40/high-performance-tidb-hw/blob/master/code.png) 
 
 ### Deploying the tidb cluster
 1. Start tidb
